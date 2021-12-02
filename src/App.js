@@ -2,12 +2,13 @@ import { useState } from "react";
 import "./App.css";
 
 import IronbnbList from './components/IronbnbList';  // <== IMPORT
+// import TimerFour from "./components/TimerFour"
 
 function App() {
-  const [show, setShow] = useState(true);
 
   return (
     <div className="App">
+      <IronbnbList />
     </div>
   );
 }
